@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "hallmark": "Genomic Instability",
+    "description": "The accumulation of genetic damage and mutations in cells over time",
+    "relatedTheories": ["Somatic Mutation Theory of Aging", "DNA Damage Theory of Aging"],
+    "keyResearchers": ["Jan Vijg", "Judith Campisi"],
+    "yearIdentified": "Late 20th Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576174/gr1.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217."
+    ]
+  },
+  {
+    "id": 2,
+    "hallmark": "Telomere Attrition",
+    "description": "The progressive shortening of telomeres, which are protective caps at the ends of chromosomes",
+    "relatedTheories": ["Telomere Theory of Aging"],
+    "keyResearchers": ["Elizabeth Blackburn", "Carol Greider", "Jack Szostak"],
+    "yearIdentified": "Late 20th Century",
+    "imageURLs": ["https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41556-018-0073-x/MediaObjects/41556_2018_73_Fig1_HTML.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Blackburn, E. H., et al. 'Telomeres and Telomerase: Their Mechanisms of Action and the Effects of Altering Their Functions.' FEBS Letters 249.1 (1989): 17-23."
+    ]
+  },
+  {
+    "id": 3,
+    "hallmark": "Epigenetic Alterations",
+    "description": "Changes in gene expression patterns and chromatin structure that occur during aging",
+    "relatedTheories": ["Epigenetic Theory of Aging"],
+    "keyResearchers": ["Steven Austad", "Mario F. Fraga"],
+    "yearIdentified": "Early 21st Century",
+    "imageURLs": ["https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41556-018-0073-x/MediaObjects/41556_2018_73_Fig2_HTML.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Fraga, M. F., et al. 'Epigenetic Differences Arise During the Lifetime of Monozygotic Twins.' Proceedings of the National Academy of Sciences 102.30 (2005): 10604-10609."
+    ]
+  },
+  {
+    "id": 4,
+    "hallmark": "Loss of Proteostasis",
+    "description": "The impaired ability of cells to maintain proper protein homeostasis, leading to the accumulation of misfolded or damaged proteins",
+    "relatedTheories": ["Protein Misfolding Theory of Aging", "Protein Oxidation Theory of Aging"],
+    "keyResearchers": ["Richard I. Morimoto", "F. Ulrich Hartl"],
+    "yearIdentified": "Early 21st Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576175/gr2.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Morimoto, R. I., et al. 'The Proteostasis Network and Aging.' Molecular & Cellular Proteomics 18.8 (2019): S1-S12."
+    ]
+  },
+  {
+    "id": 5,
+    "hallmark": "Disabled Macroautophagy",
+    "description": "The decline in the cellular process of macroautophagy, which is responsible for the degradation and recycling of damaged proteins and organelles",
+    "relatedTheories": ["Autophagy Theory of Aging"],
+    "keyResearchers": ["Ana Maria Cuervo", "Guido Kroemer"],
+    "yearIdentified": "Early 21st Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576176/gr3.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Cuervo, A. M., et al. 'Autophagy and Aging: The Importance of Maintaining 'Clean' Cells.' Nature Reviews Molecular Cell Biology 6.1 (2005): 72-82."
+    ]
+  },
+  {
+    "id": 6,
+    "hallmark": "Deregulated Nutrient-Sensing",
+    "description": "The dysregulation of nutrient-sensing pathways, such as insulin and mTOR signaling, which play a crucial role in regulating cellular metabolism and growth",
+    "relatedTheories": ["Metabolic Theory of Aging", "Insulin/IGF-1 Theory of Aging"],
+    "keyResearchers": ["Cynthia Kenyon", "David Sinclair"],
+    "yearIdentified": "Early 21st Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576177/gr4.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Kenyon, C. J. 'The Plasticity of Aging: Insights from Long-Lived Mutants.' Cell 120.4 (2005): 449-460."
+    ]
+  },
+  {
+    "id": 7,
+    "hallmark": "Mitochondrial Dysfunction",
+    "description": "The accumulation of damage and dysfunction in mitochondria, which are the cellular organelles responsible for energy production",
+    "relatedTheories": ["Mitochondrial Free Radical Theory of Aging", "Mitochondrial Theory of Aging"],
+    "keyResearchers": ["Denham Harman", "Bruce N. Ames"],
+    "yearIdentified": "Mid-20th Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576178/gr5.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Harman, D. 'Aging: A Theory Based on Free Radical and Radiation Chemistry.' Journal of Gerontology 11.3 (1956): 298-300."
+    ]
+  },
+  {
+    "id": 8,
+    "hallmark": "Cellular Senescence",
+    "description": "The irreversible arrest of cell division and the associated secretion of pro-inflammatory factors, which can contribute to tissue dysfunction and aging",
+    "relatedTheories": ["Senescence Theory of Aging", "Inflammaging Theory of Aging"],
+    "keyResearchers": ["Leonard Hayflick", "Judith Campisi"],
+    "yearIdentified": "Late 20th Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576179/gr6.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Hayflick, L., et al. 'The Limited In Vitro Lifetime of Human Diploid Cell Strains.' Experimental Cell Research 37.3 (1965): 614-636."
+    ]
+  },
+  {
+    "id": 9,
+    "hallmark": "Stem Cell Exhaustion",
+    "description": "The depletion of stem cell reserves and the associated decline in tissue regeneration and repair",
+    "relatedTheories": ["Stem Cell Theory of Aging", "Tissue Repair Theory of Aging"],
+    "keyResearchers": ["Irina M. Conboy", "Michael D. West"],
+    "yearIdentified": "Early 21st Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576180/gr7.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Conboy, I. M., et al. 'Aging, Stem Cells and Tissue Regeneration: Lessons from Muscle.' Cell Cycle 4.3 (2005): 407-410."
+    ]
+  },
+  {
+    "id": 10,
+    "hallmark": "Altered Intercellular Communication",
+    "description": "The dysregulation of intercellular communication, which is crucial for maintaining tissue homeostasis and coordinating cellular responses",
+    "relatedTheories": ["Systemic Dysregulation Theory of Aging", "Cell-to-Cell Communication Theory of Aging"],
+    "keyResearchers": ["Judith Campisi", "Claudio Franceschi"],
+    "yearIdentified": "Early 21st Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576181/gr8.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Franceschi, C., et al. 'Inflamm-Aging: An Evolutionary Perspective on Immunosenescence.' Annals of the New York Academy of Sciences 908.1 (2000): 244-254."
+    ]
+  },
+  {
+    "id": 11,
+    "hallmark": "Chronic Inflammation",
+    "description": "The persistent low-grade inflammation that occurs with aging, which can contribute to the development of age-related diseases",
+    "relatedTheories": ["Inflammaging Theory of Aging", "Oxidative Stress Theory of Aging"],
+    "keyResearchers": ["Claudio Franceschi", "Yuji Ikeno"],
+    "yearIdentified": "Late 20th Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576182/gr9.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Franceschi, C., et al. 'Inflamm-Aging: An Evolutionary Perspective on Immunosenescence.' Annals of the New York Academy of Sciences 908.1 (2000): 244-254."
+    ]
+  },
+  {
+    "id": 12,
+    "hallmark": "Dysbiosis",
+    "description": "The age-related alterations in the composition and diversity of the microbiome, which can contribute to inflammation and other age-related processes",
+    "relatedTheories": ["Gut Microbiome Theory of Aging", "Hygiene Hypothesis of Aging"],
+    "keyResearchers": ["David A. Relman", "Jeffrey I. Gordon"],
+    "yearIdentified": "Early 21st Century",
+    "imageURLs": ["https://www.cell.com/cms/attachment/2115425425/2077576183/gr10.jpg"],
+    "citations": [
+      "López-Otín, C., et al. 'The Hallmarks of Aging.' Cell 153.6 (2013): 1194-1217.",
+      "Relman, D. A., et al. 'The Human Microbiome and Host Aging.' Nature Microbiology 6.10 (2021): 1220-1232."
+    ]
+  }
+]

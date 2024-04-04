@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scientific Papers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 30px; /* Adjust this value as needed */
+
+        }
+
+        .grid-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .paper-box {
+            width: 400px;
+            height: 500px;
+            background-color: #ffffff;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            position: relative;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .paper-link {
+            text-decoration: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+        }
+
+        .paper-link h2,
+        .paper-link p {
+            color: black;
+            pointer-events: none;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            height: 200px; /* Set a fixed height or adjust as needed */
+        }
+
+        .carousel {
+            margin-bottom: 20px; /* Spacing between the carousel and text */
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;">Scientific Papers</h1>
+    <div class="grid-container">
+        {% for paper in papers %}
+        <div class="paper-box">
+            <a href="{{ url_for('paper_detail', paper_id=paper.id) }}" class="paper-link"></a>
+            <h2>{{ paper.title }}</h2>
+            <div id="carousel{{ paper.id }}" class="carousel slide" data-ride="carousel" data-interval="7500">
+                <!-- Assuming this block is within a loop that iterates over 'papers' -->
+                <div class="carousel-inner">
+                    {% for image in paper.images %}
+                    <div class="carousel-item {% if loop.first %}active{% endif %}">
+                    <img src="/static/{{ image }}" class="d-block w-100" alt="...">
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <p>{{ paper.abstract[:100] }}...</p>
+            <p><strong>Year:</strong> {{ paper.year }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 5000
+        });
+    </script>
+</body>
+</html>
